@@ -1,4 +1,20 @@
 const projects = {
+  nimbu: {
+    title:'NIMBU THEORY',
+    type:'Brand Identity / Packaging / Concept Brand',
+    year:'2026',
+    bg:'#f4ead4', ink:'#234a34', accent:'#7a2335', accentText:'#f4ead4',
+    summary:'A fictional sparkling lemonade brand inspired by India’s roadside nimbu soda culture — reworked through a squeezed wordmark, a sculptural banta-inspired bottle and a bold four-flavour colour system.',
+    tags:['Brand identity','Packaging','Concept design','Visual storytelling'],
+    noteTitle:'Desi roots. Fresh attitude.',
+    note:'The identity turns the squeezed lemon into both a letterform and a standalone submark. The bottle extends that same gesture into a tactile glass form. Fictional brand created for design exploration.',
+    images:[
+      {src:'assets/projects/nimbu-vendor-poster.webp', alt:'Nimbu Theory campaign poster with roadside nimbu soda vendor'},
+      {src:'assets/projects/nimbu-logo-story.webp', alt:'Nimbu Theory logo and submark story'},
+      {src:'assets/projects/nimbu-flavour-lineup.webp', alt:'Nimbu Theory four-flavour banta bottle lineup', wide:true},
+      {src:'assets/projects/nimbu-bottle-duo.webp', alt:'Nimbu Theory Classic Salted Lemon and Chilli Lemon bottles'}
+    ], next:'pn'
+  },
   pn: {
     title: 'PN SHUDHH',
     type: 'Brand Identity / Packaging / Visual Language',
@@ -70,7 +86,7 @@ const projects = {
     tags:['Logo design','Food & beverage','Illustration','Identity'],
     noteTitle:'Personality first',
     note:'The identity balances a confident wordmark with a characterful food illustration so the brand feels casual, memorable and ready for packaging or social use.',
-    images:[{src:'assets/projects/holy-slice.webp', alt:'Holy Slice pizzeria logo', wide:true}], next:'pn'
+    images:[{src:'assets/projects/holy-slice.webp', alt:'Holy Slice pizzeria logo', wide:true}], next:'nimbu'
   }
 };
 
