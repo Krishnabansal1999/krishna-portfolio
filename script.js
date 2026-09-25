@@ -4,15 +4,18 @@ const projects = {
     type:'Brand Identity / Packaging / Concept Brand',
     year:'2026',
     bg:'#f4ead4', ink:'#234a34', accent:'#7a2335', accentText:'#f4ead4',
-    summary:'A fictional sparkling lemonade brand inspired by India’s roadside nimbu soda culture — reworked through a squeezed wordmark, a sculptural banta-inspired bottle and a bold four-flavour colour system.',
+    summary:'A fictional sparkling lemonade brand inspired by India’s roadside nimbu soda culture — translated into a squeezed wordmark, vibrant flavour storytelling and a sculptural banta-inspired bottle.',
     tags:['Brand identity','Packaging','Concept design','Visual storytelling'],
-    noteTitle:'Desi roots. Fresh attitude.',
-    note:'The identity turns the squeezed lemon into both a letterform and a standalone submark. The bottle extends that same gesture into a tactile glass form. Fictional brand created for design exploration.',
+    noteTitle:'Street soul. Modern sparkle.',
+    note:'NIMBU THEORY reimagines familiar roadside nimbu soda through bold typography, a signature squeeze-shaped symbol, a sharp colour system and premium packaging visuals. This concept project explores how a local street-drink ritual can become a modern lifestyle brand.',
     images:[
-      {src:'assets/projects/nimbu-vendor-poster.webp', alt:'Nimbu Theory campaign poster with roadside nimbu soda vendor'},
-      {src:'assets/projects/nimbu-logo-story.webp', alt:'Nimbu Theory logo and submark story'},
-      {src:'assets/projects/nimbu-flavour-lineup.webp', alt:'Nimbu Theory four-flavour banta bottle lineup', wide:true},
-      {src:'assets/projects/nimbu-bottle-duo.webp', alt:'Nimbu Theory Classic Salted Lemon and Chilli Lemon bottles'}
+      {src:'assets/projects/nimbu-vendor-hd.webp', alt:'Nimbu Theory poster with roadside vendor and two bottles'},
+      {src:'assets/projects/nimbu-wordmark-hd.webp', alt:'Nimbu Theory wordmark and signature squeeze symbol'},
+      {src:'assets/projects/nimbu-identity-story-hd.webp', alt:'Nimbu Theory identity idea and submark explanation'},
+      {src:'assets/projects/nimbu-palette-hd.webp', alt:'Nimbu Theory colour palette poster'},
+      {src:'assets/projects/nimbu-bottle-splash-hd.webp', alt:'Nimbu Theory bottle poster with splash scene'},
+      {src:'assets/projects/nimbu-bottle-hand-hd.webp', alt:'Nimbu Theory chilli lemon bottle held in hand'},
+      {src:'assets/projects/nimbu-street-soul-hd.webp', alt:'Nimbu Theory street soul modern sparkle poster'}
     ], next:'pn'
   },
   pn: {
@@ -139,21 +142,26 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape' && activeProject) cl
 
 const preview = document.querySelector('.hover-preview');
 const previewImg = preview.querySelector('img');
+const cursor = document.querySelector('.cursor');
 let mx=0,my=0,px=0,py=0;
-window.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
+window.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;tx=e.clientX;ty=e.clientY;cursor.style.opacity='1';});
 function animatePreview(){px+=(mx-px)*.16;py+=(my-py)*.16;preview.style.left=px+'px';preview.style.top=py+'px';requestAnimationFrame(animatePreview)}
 animatePreview();
+function showPreview(src){
+  if(!src) return;
+  previewImg.onerror=()=>{preview.classList.remove('is-visible');};
+  previewImg.onload=()=>{preview.classList.add('is-visible');};
+  previewImg.src=src;
+}
 document.querySelectorAll('.project-row').forEach(row=>{
-  row.addEventListener('mouseenter',()=>{previewImg.src=row.dataset.preview;preview.classList.add('is-visible');cursor.classList.add('is-active')});
+  row.addEventListener('mouseenter',()=>{showPreview(row.dataset.preview);cursor.classList.add('is-active')});
   row.addEventListener('mouseleave',()=>{preview.classList.remove('is-visible');cursor.classList.remove('is-active')});
 });
 
 const observer = new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 
-const cursor = document.querySelector('.cursor');
 let cx=0,cy=0,tx=0,ty=0;
-window.addEventListener('mousemove',e=>{tx=e.clientX;ty=e.clientY;cursor.style.opacity='1'});
 function animateCursor(){cx+=(tx-cx)*.22;cy+=(ty-cy)*.22;cursor.style.left=cx+'px';cursor.style.top=cy+'px';requestAnimationFrame(animateCursor)}
 animateCursor();
 
