@@ -9,9 +9,9 @@ const projects = {
     noteTitle:'Street soul. Modern sparkle.',
     note:'NIMBU THEORY reimagines familiar roadside nimbu soda through bold typography, a signature squeeze-shaped symbol and premium packaging visuals. Fictional brand created for design exploration.',
     images:[
-      {src:'assets/projects/nimbu-vendor-v4.webp', alt:'Nimbu Theory vendor campaign poster'},
-      {src:'assets/projects/nimbu-wordmark-v4.webp', alt:'Nimbu Theory wordmark and signature squeeze symbol'},
-      {src:'assets/projects/nimbu-logo-story-v4.webp', alt:'Nimbu Theory logo and submark story'}
+      {src:'assets/projects/nimbu-flavour-lineup.webp', alt:'Nimbu Theory four-flavour bottle lineup'},
+      {src:'assets/projects/nimbu-logo-story.webp', alt:'Nimbu Theory logo and submark story'},
+      {src:'assets/projects/nimbu-bottle-duo.webp', alt:'Nimbu Theory bottle duo'}
     ], next:'pn'
   },
   pn: {
@@ -110,9 +110,15 @@ document.querySelectorAll('.project-row').forEach(row=>{
   if(src){ const preload=new Image(); preload.src=src; }
   row.addEventListener('mouseenter',()=>{
     if(preview && previewImg && src){
+      previewImg.onload=null;
+      previewImg.onerror=null;
       previewImg.src=src;
-      if(previewImg.complete && previewImg.naturalWidth>0) preview.classList.add('is-visible');
-      else previewImg.onload=()=>preview.classList.add('is-visible');
+      const show=()=>preview.classList.add('is-visible');
+      if(previewImg.complete && previewImg.naturalWidth>0) show();
+      else {
+        previewImg.onload=show;
+        previewImg.onerror=()=>preview.classList.remove('is-visible');
+      }
     }
     if(cursor) cursor.classList.add('is-active');
   });
