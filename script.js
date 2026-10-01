@@ -7,25 +7,18 @@ const projects = {
     summary:'A fictional sparkling lemonade brand inspired by India’s roadside nimbu soda culture — translated into a squeezed wordmark, vibrant flavour storytelling and a sculptural banta-inspired bottle.',
     tags:['Brand identity','Packaging','Concept design','Visual storytelling'],
     noteTitle:'Street soul. Modern sparkle.',
-    note:'NIMBU THEORY reimagines familiar roadside nimbu soda through bold typography, a signature squeeze-shaped symbol, a sharp colour system and premium packaging visuals. This concept project explores how a local street-drink ritual can become a modern lifestyle brand.',
+    note:'NIMBU THEORY reimagines familiar roadside nimbu soda through bold typography, a signature squeeze-shaped symbol and premium packaging visuals. Fictional brand created for design exploration.',
     images:[
-      {src:'assets/projects/nimbu-vendor-hd.webp', alt:'Nimbu Theory poster with roadside vendor and two bottles'},
-      {src:'assets/projects/nimbu-wordmark-hd.webp', alt:'Nimbu Theory wordmark and signature squeeze symbol'},
-      {src:'assets/projects/nimbu-identity-story-hd.webp', alt:'Nimbu Theory identity idea and submark explanation'},
-      {src:'assets/projects/nimbu-palette-hd.webp', alt:'Nimbu Theory colour palette poster'},
-      {src:'assets/projects/nimbu-bottle-splash-hd.webp', alt:'Nimbu Theory bottle poster with splash scene'},
-      {src:'assets/projects/nimbu-bottle-hand-hd.webp', alt:'Nimbu Theory chilli lemon bottle held in hand'},
-      {src:'assets/projects/nimbu-street-soul-hd.webp', alt:'Nimbu Theory street soul modern sparkle poster'}
+      {src:'assets/projects/nimbu-vendor-v4.webp', alt:'Nimbu Theory vendor campaign poster'},
+      {src:'assets/projects/nimbu-wordmark-v4.webp', alt:'Nimbu Theory wordmark and signature squeeze symbol'},
+      {src:'assets/projects/nimbu-logo-story-v4.webp', alt:'Nimbu Theory logo and submark story'}
     ], next:'pn'
   },
   pn: {
-    title: 'PN SHUDHH',
-    type: 'Brand Identity / Packaging / Visual Language',
-    year: '2026',
+    title: 'PN SHUDHH', type: 'Brand Identity / Packaging / Visual Language', year: '2026',
     bg: '#f4ead8', ink: '#9f2b1f', accent: '#a52d20', accentText: '#fff8ec',
     summary: 'A premium flour identity built around responsible sourcing, fresh milling and care in everyday food — expressed through a warm wordmark, a compact chakki mark and tactile packaging language.',
-    tags: ['Brand identity','Packaging','Typography','Visual system'],
-    noteTitle: 'The direction',
+    tags: ['Brand identity','Packaging','Typography','Visual system'], noteTitle: 'The direction',
     note: 'Rooted in grain, led by type, and designed to grow from flour into future staples.',
     images: [
       {src:'assets/projects/pn-shudhh-logo.png', alt:'PN SHUDHH final wordmark', contain:true},
@@ -35,13 +28,10 @@ const projects = {
     ], next:'seven'
   },
   seven: {
-    title: '7TH HEAVEN',
-    type: 'Packaging / Dieline / Local Visual Storytelling',
-    year: '2026',
+    title: '7TH HEAVEN', type: 'Packaging / Dieline / Local Visual Storytelling', year: '2026',
     bg: '#f7f3ec', ink: '#17120e', accent:'#fd641d', accentText:'#fff9f3',
     summary: 'A custom cake-box system developed around a wraparound viewing window, an orange-and-ivory visual system and Siliguri-specific line art.',
-    tags:['Packaging','Dieline','Print','Mockup'],
-    noteTitle:'From structure to shelf',
+    tags:['Packaging','Dieline','Print','Mockup'], noteTitle:'From structure to shelf',
     note:'The project moves from a manufacturer-reference dieline to final artwork, window placement, local illustration and realistic folded mockups.',
     images:[
       {src:'assets/projects/7h-mockup-angle.webp', alt:'7th Heaven cake box angled mockup'},
@@ -50,13 +40,10 @@ const projects = {
     ], next:'vinayak'
   },
   vinayak: {
-    title:'VINAYAK TEA',
-    type:'Packaging Design / Tea Carton',
-    year:'Selected work',
+    title:'VINAYAK TEA', type:'Packaging Design / Tea Carton', year:'Selected work',
     bg:'#f7d529', ink:'#402716', accent:'#3c6e3d', accentText:'#fff7d4',
     summary:'My first packaging project — a herbal tea carton developed from visual direction and design details through to the final cut-and-crease artwork.',
-    tags:['Packaging','Dieline','Product design','Process'],
-    noteTitle:'Behind the design',
+    tags:['Packaging','Dieline','Product design','Process'], noteTitle:'Behind the design',
     note:'Warm yellow, leaf texture and a familiar tea-time moment carry the visual story while the dieline shows how the flat artwork becomes the finished pack.',
     images:[
       {src:'assets/projects/vinayak-mockup.webp', alt:'Vinayak Tea packaging mockup'},
@@ -66,13 +53,10 @@ const projects = {
     ], next:'eight'
   },
   eight: {
-    title:'8EEN',
-    type:'Fashion / Brand Identity',
-    year:'Identity',
+    title:'8EEN', type:'Fashion / Brand Identity', year:'Identity',
     bg:'#f3f2ef', ink:'#0b0b0b', accent:'#0b0b0b', accentText:'#ffffff',
     summary:'A fashion identity built around a looping custom symbol — combining an infinity gesture, inner forms for EEN and a hidden small e.',
-    tags:['Logo design','Identity','Fashion','Symbol'],
-    noteTitle:'The mark',
+    tags:['Logo design','Identity','Fashion','Symbol'], noteTitle:'The mark',
     note:'The symbol uses a never-ending loop as its core idea, with multiple inner loops and open spaces giving the mark its own character.',
     images:[
       {src:'assets/projects/8een-mark.webp', alt:'8een custom identity symbol', contain:true},
@@ -81,13 +65,10 @@ const projects = {
     ], next:'holy'
   },
   holy: {
-    title:'HOLY SLICE',
-    type:'Pizzeria / Brand Identity',
-    year:'Concept',
+    title:'HOLY SLICE', type:'Pizzeria / Brand Identity', year:'Concept',
     bg:'#0f7b8d', ink:'#fff1d0', accent:'#ff7a24', accentText:'#171717',
     summary:'A playful pizzeria identity pairing a bold retro wordmark with a halo and an illustrated pizza slice for an instantly recognisable, youthful personality.',
-    tags:['Logo design','Food & beverage','Illustration','Identity'],
-    noteTitle:'Personality first',
+    tags:['Logo design','Food & beverage','Illustration','Identity'], noteTitle:'Personality first',
     note:'The identity balances a confident wordmark with a characterful food illustration so the brand feels casual, memorable and ready for packaging or social use.',
     images:[{src:'assets/projects/holy-slice.webp', alt:'Holy Slice pizzeria logo', wide:true}], next:'nimbu'
   }
@@ -96,86 +77,54 @@ const projects = {
 const overlay = document.getElementById('case-overlay');
 const caseInner = document.getElementById('case-inner');
 const closeBtn = document.querySelector('.case-close');
+const preview = document.querySelector('.hover-preview');
+const previewImg = preview ? preview.querySelector('img') : null;
+const cursor = document.querySelector('.cursor');
 let activeProject = null;
+let mx=0,my=0,px=0,py=0,cx=0,cy=0,tx=0,ty=0;
 
 function renderProject(key){
-  const p = projects[key];
-  if(!p) return;
+  const p = projects[key]; if(!p) return;
   activeProject = key;
-  overlay.style.setProperty('--case-bg',p.bg);
-  overlay.style.setProperty('--case-ink',p.ink);
-  overlay.style.setProperty('--case-accent',p.accent);
-  overlay.style.setProperty('--case-accent-text',p.accentText);
+  overlay.style.setProperty('--case-bg',p.bg); overlay.style.setProperty('--case-ink',p.ink);
+  overlay.style.setProperty('--case-accent',p.accent); overlay.style.setProperty('--case-accent-text',p.accentText);
   const gallery = p.images.map((img,i)=>`<figure class="case-image ${img.wide?'wide':''} ${img.contain?'contain':''}"><img src="${img.src}" alt="${img.alt}" loading="${i>1?'lazy':'eager'}"></figure>`).join('');
   const next = projects[p.next];
-  caseInner.innerHTML = `
-    <section class="case-hero">
-      <div class="case-topline"><span>${p.type}</span><span>${p.year}</span></div>
-      <h1 class="case-title">${p.title}</h1>
-      <div class="case-summary">
-        <p>${p.summary}</p>
-        <div class="case-tags">${p.tags.map(t=>`<span>${t}</span>`).join('')}</div>
-      </div>
-    </section>
-    <section class="case-gallery">
-      ${gallery}
-      <div class="case-note"><h3>${p.noteTitle}</h3><p>${p.note}</p></div>
-    </section>
-    <button class="case-next" type="button" data-next="${p.next}"><small>Next project</small><strong>${next.title} →</strong></button>`;
-  document.body.classList.add('case-open');
-  overlay.classList.add('is-open');
-  overlay.setAttribute('aria-hidden','false');
-  overlay.scrollTop = 0;
-  setTimeout(()=>closeBtn.focus(),400);
+  caseInner.innerHTML = `<section class="case-hero"><div class="case-topline"><span>${p.type}</span><span>${p.year}</span></div><h1 class="case-title">${p.title}</h1><div class="case-summary"><p>${p.summary}</p><div class="case-tags">${p.tags.map(t=>`<span>${t}</span>`).join('')}</div></div></section><section class="case-gallery">${gallery}<div class="case-note"><h3>${p.noteTitle}</h3><p>${p.note}</p></div></section><button class="case-next" type="button" data-next="${p.next}"><small>Next project</small><strong>${next.title} →</strong></button>`;
+  document.body.classList.add('case-open'); overlay.classList.add('is-open'); overlay.setAttribute('aria-hidden','false'); overlay.scrollTop=0;
+  setTimeout(()=>closeBtn.focus(),300);
 }
-function closeProject(){
-  overlay.classList.remove('is-open');
-  overlay.setAttribute('aria-hidden','true');
-  document.body.classList.remove('case-open');
-  activeProject=null;
-}
+function closeProject(){ overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden','true'); document.body.classList.remove('case-open'); activeProject=null; }
 
 document.querySelectorAll('[data-project]').forEach(row=>row.addEventListener('click',()=>renderProject(row.dataset.project)));
 closeBtn.addEventListener('click',closeProject);
-overlay.addEventListener('click',e=>{const next=e.target.closest('[data-next]');if(next) renderProject(next.dataset.next)});
-document.addEventListener('keydown',e=>{if(e.key==='Escape' && activeProject) closeProject()});
+overlay.addEventListener('click',e=>{ const next=e.target.closest('[data-next]'); if(next) renderProject(next.dataset.next); });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape' && activeProject) closeProject(); });
 
-const preview = document.querySelector('.hover-preview');
-const previewImg = preview.querySelector('img');
-const cursor = document.querySelector('.cursor');
-let mx=0,my=0,px=0,py=0;
-window.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;tx=e.clientX;ty=e.clientY;cursor.style.opacity='1';});
-function animatePreview(){px+=(mx-px)*.16;py+=(my-py)*.16;preview.style.left=px+'px';preview.style.top=py+'px';requestAnimationFrame(animatePreview)}
+window.addEventListener('mousemove',e=>{ mx=e.clientX; my=e.clientY; tx=e.clientX; ty=e.clientY; if(cursor) cursor.style.opacity='1'; });
+function animatePreview(){ if(preview){ px+=(mx-px)*.18; py+=(my-py)*.18; preview.style.left=px+'px'; preview.style.top=py+'px'; } requestAnimationFrame(animatePreview); }
 animatePreview();
-function showPreview(src){
-  if(!src) return;
-  previewImg.onerror=()=>{preview.classList.remove('is-visible');};
-  previewImg.onload=()=>{preview.classList.add('is-visible');};
-  previewImg.src=src;
-}
+
 document.querySelectorAll('.project-row').forEach(row=>{
-  row.addEventListener('mouseenter',()=>{showPreview(row.dataset.preview);cursor.classList.add('is-active')});
-  row.addEventListener('mouseleave',()=>{preview.classList.remove('is-visible');cursor.classList.remove('is-active')});
+  const src=row.dataset.preview;
+  if(src){ const preload=new Image(); preload.src=src; }
+  row.addEventListener('mouseenter',()=>{
+    if(preview && previewImg && src){
+      previewImg.src=src;
+      if(previewImg.complete && previewImg.naturalWidth>0) preview.classList.add('is-visible');
+      else previewImg.onload=()=>preview.classList.add('is-visible');
+    }
+    if(cursor) cursor.classList.add('is-active');
+  });
+  row.addEventListener('mouseleave',()=>{ if(preview) preview.classList.remove('is-visible'); if(cursor) cursor.classList.remove('is-active'); });
 });
 
-const observer = new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.12});
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{ if(entry.isIntersecting){ entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } }),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-
-let cx=0,cy=0,tx=0,ty=0;
-function animateCursor(){cx+=(tx-cx)*.22;cy+=(ty-cy)*.22;cursor.style.left=cx+'px';cursor.style.top=cy+'px';requestAnimationFrame(animateCursor)}
+function animateCursor(){ if(cursor){ cx+=(tx-cx)*.22; cy+=(ty-cy)*.22; cursor.style.left=cx+'px'; cursor.style.top=cy+'px'; } requestAnimationFrame(animateCursor); }
 animateCursor();
-
-document.querySelectorAll('a,button,.identity-card').forEach(el=>{
-  el.addEventListener('mouseenter',()=>cursor.classList.add('is-active'));
-  el.addEventListener('mouseleave',()=>cursor.classList.remove('is-active'));
-});
-
-document.querySelectorAll('.magnetic').forEach(el=>{
-  el.addEventListener('mousemove',e=>{const r=el.getBoundingClientRect();const x=e.clientX-(r.left+r.width/2);const y=e.clientY-(r.top+r.height/2);el.style.transform=`translate(${x*.08}px,${y*.08}px)`});
-  el.addEventListener('mouseleave',()=>el.style.transform='');
-});
-
-const menuBtn=document.querySelector('.menu-toggle');
-const mobileMenu=document.querySelector('.mobile-menu');
-menuBtn.addEventListener('click',()=>{const open=mobileMenu.classList.toggle('is-open');menuBtn.setAttribute('aria-expanded',open);menuBtn.textContent=open?'Close':'Menu'});
-mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobileMenu.classList.remove('is-open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='Menu'}));
+document.querySelectorAll('a,button,.identity-card').forEach(el=>{ el.addEventListener('mouseenter',()=>cursor&&cursor.classList.add('is-active')); el.addEventListener('mouseleave',()=>cursor&&cursor.classList.remove('is-active')); });
+document.querySelectorAll('.magnetic').forEach(el=>{ el.addEventListener('mousemove',e=>{ const r=el.getBoundingClientRect(); const x=e.clientX-(r.left+r.width/2), y=e.clientY-(r.top+r.height/2); el.style.transform=`translate(${x*.08}px,${y*.08}px)`; }); el.addEventListener('mouseleave',()=>el.style.transform=''); });
+const menuBtn=document.querySelector('.menu-toggle'), mobileMenu=document.querySelector('.mobile-menu');
+menuBtn.addEventListener('click',()=>{ const open=mobileMenu.classList.toggle('is-open'); menuBtn.setAttribute('aria-expanded',open); menuBtn.textContent=open?'Close':'Menu'; });
+mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{ mobileMenu.classList.remove('is-open'); menuBtn.setAttribute('aria-expanded','false'); menuBtn.textContent='Menu'; }));
