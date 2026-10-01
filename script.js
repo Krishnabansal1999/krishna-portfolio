@@ -9,9 +9,13 @@ const projects = {
     noteTitle:'Street soul. Modern sparkle.',
     note:'NIMBU THEORY reimagines familiar roadside nimbu soda through bold typography, a signature squeeze-shaped symbol and premium packaging visuals. Fictional brand created for design exploration.',
     images:[
-      {src:'assets/projects/nimbu-flavour-lineup.webp', alt:'Nimbu Theory four-flavour bottle lineup'},
-      {src:'assets/projects/nimbu-logo-story.webp', alt:'Nimbu Theory logo and submark story'},
-      {src:'assets/projects/nimbu-bottle-duo.webp', alt:'Nimbu Theory bottle duo'}
+      {src:'assets/projects/nimbu-vendor-hd.png', alt:'Nimbu Theory vendor campaign poster'},
+      {src:'assets/projects/nimbu-wordmark-hd.png', alt:'Nimbu Theory wordmark and signature squeeze symbol'},
+      {src:'assets/projects/nimbu-identity-story-hd.png', alt:'Nimbu Theory identity idea and submark explanation'},
+      {src:'assets/projects/nimbu-palette-hd.png', alt:'Nimbu Theory colour palette'},
+      {src:'assets/projects/nimbu-bottle-splash-hd.png', alt:'Nimbu Theory chilli lemon bottle splash campaign'},
+      {src:'assets/projects/nimbu-bottle-hand-hd.png', alt:'Nimbu Theory chilli lemon bottle held in hand'},
+      {src:'assets/projects/nimbu-street-soul-hd.png', alt:'Nimbu Theory street soul modern sparkle campaign'}
     ], next:'pn'
   },
   pn: {
@@ -88,7 +92,7 @@ function renderProject(key){
   activeProject = key;
   overlay.style.setProperty('--case-bg',p.bg); overlay.style.setProperty('--case-ink',p.ink);
   overlay.style.setProperty('--case-accent',p.accent); overlay.style.setProperty('--case-accent-text',p.accentText);
-  const gallery = p.images.map((img,i)=>`<figure class="case-image ${img.wide?'wide':''} ${img.contain?'contain':''}"><img src="${img.src}" alt="${img.alt}" loading="${i>1?'lazy':'eager'}"></figure>`).join('');
+  const gallery = p.images.map((img,i)=>`<figure class="case-image ${img.wide?'wide':''} ${img.contain?'contain':''}"><img src="${img.src}" alt="${img.alt}" loading="${i>1?'lazy':'eager'}" decoding="async"></figure>`).join('');
   const next = projects[p.next];
   caseInner.innerHTML = `<section class="case-hero"><div class="case-topline"><span>${p.type}</span><span>${p.year}</span></div><h1 class="case-title">${p.title}</h1><div class="case-summary"><p>${p.summary}</p><div class="case-tags">${p.tags.map(t=>`<span>${t}</span>`).join('')}</div></div></section><section class="case-gallery">${gallery}<div class="case-note"><h3>${p.noteTitle}</h3><p>${p.note}</p></div></section><button class="case-next" type="button" data-next="${p.next}"><small>Next project</small><strong>${next.title} →</strong></button>`;
   document.body.classList.add('case-open'); overlay.classList.add('is-open'); overlay.setAttribute('aria-hidden','false'); overlay.scrollTop=0;
