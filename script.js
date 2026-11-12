@@ -1,4 +1,21 @@
 const projects = {
+  assam: {
+    title:'ASSAM CAFE',
+    type:'Custom Illustration / Spatial Graphics / Glass',
+    year:'Dibrugarh / 2026',
+    bg:'#f1efe9', ink:'#171717', accent:'#173BFF', accentText:'#ffffff',
+    summary:'A custom illustration system created for a café space in Dibrugarh — developed panel by panel for frosted glass, then produced and installed on site.',
+    tags:['Custom illustration','Spatial graphics','Glass graphics','Execution'],
+    noteTitle:'From illustration to space.',
+    note:'Custom black linework was translated into a continuous visual story across the café’s glass partitions, moving from site planning and panel artwork to the finished installation.',
+    media:[
+      {type:'image', src:'assets/projects/assam-cafe-preview.webp', alt:'Finished Assam café frosted-glass illustration installation in Dibrugarh', wide:true},
+      {type:'image', src:'assets/projects/assam-cafe-before.webp', alt:'Café glass partition before illustration installation', wide:true},
+      {type:'image', src:'assets/projects/assam-cafe-illustration-system.webp', alt:'Six-panel custom illustration system prepared for the café glass', wide:true, contain:true},
+      {type:'video', src:'assets/projects/assam-cafe-installed-1.mp4', alt:'Installed Assam café glass illustration walkthrough', poster:'assets/projects/assam-cafe-preview.webp'},
+      {type:'video', src:'assets/projects/assam-cafe-installed-2.mp4', alt:'Installed Assam café illustration details and walkthrough', poster:'assets/projects/assam-cafe-preview.webp'}
+    ], next:'nimbu'
+  },
   nimbu: {
     title:'NIMBU THEORY',
     type:'Brand Identity / Packaging / Concept Brand',
@@ -74,7 +91,7 @@ const projects = {
     summary:'A playful pizzeria identity pairing a bold retro wordmark with a halo and an illustrated pizza slice for an instantly recognisable, youthful personality.',
     tags:['Logo design','Food & beverage','Illustration','Identity'], noteTitle:'Personality first',
     note:'The identity balances a confident wordmark with a characterful food illustration so the brand feels casual, memorable and ready for packaging or social use.',
-    images:[{src:'assets/projects/holy-slice.webp', alt:'Holy Slice pizzeria logo', wide:true}], next:'nimbu'
+    images:[{src:'assets/projects/holy-slice.webp', alt:'Holy Slice pizzeria logo', wide:true}], next:'assam'
   }
 };
 
@@ -92,7 +109,15 @@ function renderProject(key){
   activeProject = key;
   overlay.style.setProperty('--case-bg',p.bg); overlay.style.setProperty('--case-ink',p.ink);
   overlay.style.setProperty('--case-accent',p.accent); overlay.style.setProperty('--case-accent-text',p.accentText);
-  const gallery = p.images.map((img,i)=>`<figure class="case-image ${img.wide?'wide':''} ${img.contain?'contain':''}"><img src="${img.src}" alt="${img.alt}" loading="${i>1?'lazy':'eager'}" decoding="async"></figure>`).join('');
+  const media = p.media || (p.images || []).map(img=>({...img,type:'image'}));
+  const gallery = media.map((item,i)=>{
+    const classes = `case-image ${item.wide?'wide':''} ${item.contain?'contain':''} ${item.type==='video'?'case-video':''}`;
+    if(item.type==='video'){
+      const poster = item.poster ? ` poster="${item.poster}"` : '';
+      return `<figure class="${classes}"><video src="${item.src}"${poster} autoplay muted loop playsinline preload="metadata" aria-label="${item.alt||''}"></video></figure>`;
+    }
+    return `<figure class="${classes}"><img src="${item.src}" alt="${item.alt||''}" loading="${i>1?'lazy':'eager'}" decoding="async"></figure>`;
+  }).join('');
   const next = projects[p.next];
   caseInner.innerHTML = `<section class="case-hero"><div class="case-topline"><span>${p.type}</span><span>${p.year}</span></div><h1 class="case-title">${p.title}</h1><div class="case-summary"><p>${p.summary}</p><div class="case-tags">${p.tags.map(t=>`<span>${t}</span>`).join('')}</div></div></section><section class="case-gallery">${gallery}<div class="case-note"><h3>${p.noteTitle}</h3><p>${p.note}</p></div></section><button class="case-next" type="button" data-next="${p.next}"><small>Next project</small><strong>${next.title} →</strong></button>`;
   document.body.classList.add('case-open'); overlay.classList.add('is-open'); overlay.setAttribute('aria-hidden','false'); overlay.scrollTop=0;
