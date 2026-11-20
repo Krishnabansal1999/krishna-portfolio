@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1010" viewBox="0 0 1600 1010" role="img" aria-label="Original fictional Saanjh event prospectus design by Moka Studio"><defs><filter id="paperShadow" x="-25%" y="-25%" width="150%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="17"/><feOffset dy="22" dx="8" result="b"/><feComponentTransfer><feFuncA type="linear" slope=".17"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="grain" width="13" height="11" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".7" fill="#9B6A5A" opacity=".10"/><circle cx="10" cy="8" r=".55" fill="#9B6A5A" opacity=".08"/></pattern><linearGradient id="amber" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EBB876"/><stop offset="1" stop-color="#B9573D"/></linearGradient></defs><rect x="0" y="0" width="1600" height="1010" rx="0" fill="#FAF5ED" stroke="none"/><rect x="0" y="0" width="1600" height="1010" rx="0" fill="url(#grain)" stroke="none"/>
+  <rect x="30" y="30" width="1540" height="950" rx="0" fill="none" stroke="#DBCFC0"/><line x1="800" y1="26" x2="800" y2="984" stroke="#D1C2B1" stroke-width="2"/>
+  <text x="80" y="93" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" letter-spacing="4">SAANJH / 2027</text>
+  <text x="1510" y="93" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="end" letter-spacing="3">02 / BRAND PARTNERSHIPS</text>
+  <line x1="80" y1="115" x2="1520" y2="115" stroke="#DBCFC0" stroke-width="2"/>
+  <text x="88" y="217" fill="#572C33" font-family="Georgia,Times New Roman,serif" font-weight="400" font-size="74" >Be part of</text><text x="88" y="304" fill="#572C33" font-family="Georgia,Times New Roman,serif" font-weight="400" font-size="74" >the story.</text>
+ <text x="91" y="372" fill="#C46D49" font-family="Georgia,Times New Roman,serif" font-weight="400" font-size="33" font-style="italic">Meaningful by design.</text>
+ <line x1="90" y1="418" x2="705" y2="418" stroke="#D2A25F" stroke-width="3"/>
+ <text x="91" y="487" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="24" >Event sponsorship is more than a logo</text>
+ <text x="91" y="525" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="24" >on a wall. It is an opportunity to be</text>
+ <text x="91" y="563" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="24" >present in moments that matter.</text>
+ <text x="91" y="650" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="24" >The design organises partner offerings</text>
+ <text x="91" y="688" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="24" >into a clear, useful presentation that</text>
+ <text x="91" y="726" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="24" >balances impact with practical detail.</text>
+ <g transform="translate(139 846) scale(1.6)" stroke="#C46D49" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M0 20 C-8 4,-9 -12,0 -22 C9 -12,8 4,0 20Z"/>
+    <path d="M0 19 C-22 9,-25 -7,-23 -13 C-9 -10,-2 0,0 19Z"/>
+    <path d="M0 19 C22 9,25 -7,23 -13 C9 -10,2 0,0 19Z"/>
+    <path d="M0 21 L0 35"/><path d="M-31 18 Q-19 34 0 35 Q19 34 31 18"/>
+  </g><text x="842" y="158" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" letter-spacing="3.4">WHY PARTNER?</text><rect x="836" y="196" width="681" height="146" rx="12" fill="#F0E3D1" stroke="#DBCFC0"/>
+ <text x="860" y="236" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" >01</text>
+ <text x="936" y="239" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="24" letter-spacing="1.2">CULTURAL CONNECTION</text>
+ <text x="936" y="284" fill="#786762" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="20" >A thoughtful link to heritage and community.</text>
+ <g transform="translate(1468 248) scale(0.65)" stroke="#C46D49" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M0 20 C-8 4,-9 -12,0 -22 C9 -12,8 4,0 20Z"/>
+    <path d="M0 19 C-22 9,-25 -7,-23 -13 C-9 -10,-2 0,0 19Z"/>
+    <path d="M0 19 C22 9,25 -7,23 -13 C9 -10,2 0,0 19Z"/>
+    <path d="M0 21 L0 35"/><path d="M-31 18 Q-19 34 0 35 Q19 34 31 18"/>
+  </g><rect x="836" y="369" width="681" height="146" rx="12" fill="#F8EFE3" stroke="#DBCFC0"/>
+ <text x="860" y="409" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" >02</text>
+ <text x="936" y="412" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="24" letter-spacing="1.2">PHYSICAL TOUCHPOINTS</text>
+ <text x="936" y="457" fill="#786762" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="20" >Brand placements designed for natural visibility.</text>
+ <g transform="translate(1468 421) scale(0.65)" stroke="#C46D49" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M0 20 C-8 4,-9 -12,0 -22 C9 -12,8 4,0 20Z"/>
+    <path d="M0 19 C-22 9,-25 -7,-23 -13 C-9 -10,-2 0,0 19Z"/>
+    <path d="M0 19 C22 9,25 -7,23 -13 C9 -10,2 0,0 19Z"/>
+    <path d="M0 21 L0 35"/><path d="M-31 18 Q-19 34 0 35 Q19 34 31 18"/>
+  </g><rect x="836" y="542" width="681" height="146" rx="12" fill="#F0E3D1" stroke="#DBCFC0"/>
+ <text x="860" y="582" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" >03</text>
+ <text x="936" y="585" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="24" letter-spacing="1.2">MEMORABLE EXPERIENCES</text>
+ <text x="936" y="630" fill="#786762" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="20" >On-ground moments that people want to share.</text>
+ <g transform="translate(1468 594) scale(0.65)" stroke="#C46D49" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M0 20 C-8 4,-9 -12,0 -22 C9 -12,8 4,0 20Z"/>
+    <path d="M0 19 C-22 9,-25 -7,-23 -13 C-9 -10,-2 0,0 19Z"/>
+    <path d="M0 19 C22 9,25 -7,23 -13 C9 -10,2 0,0 19Z"/>
+    <path d="M0 21 L0 35"/><path d="M-31 18 Q-19 34 0 35 Q19 34 31 18"/>
+  </g><rect x="836" y="715" width="681" height="146" rx="12" fill="#F8EFE3" stroke="#DBCFC0"/>
+ <text x="860" y="755" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" >04</text>
+ <text x="936" y="758" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="24" letter-spacing="1.2">CLEAR STORYTELLING</text>
+ <text x="936" y="803" fill="#786762" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="20" >A consistent narrative from page to venue.</text>
+ <g transform="translate(1468 767) scale(0.65)" stroke="#C46D49" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M0 20 C-8 4,-9 -12,0 -22 C9 -12,8 4,0 20Z"/>
+    <path d="M0 19 C-22 9,-25 -7,-23 -13 C-9 -10,-2 0,0 19Z"/>
+    <path d="M0 19 C22 9,25 -7,23 -13 C9 -10,2 0,0 19Z"/>
+    <path d="M0 21 L0 35"/><path d="M-31 18 Q-19 34 0 35 Q19 34 31 18"/>
+  </g>
+  <line x1="80" y1="942" x2="1520" y2="942" stroke="#DBCFC0" stroke-width="2"/>
+  <text x="80" y="972" fill="#786762" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="13" letter-spacing="2">MOKA STUDIO   /   EDITORIAL CONCEPT</text>
+  <text x="1514" y="972" fill="#786762" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="13" text-anchor="end" letter-spacing="1.8">SAANJH   —   FICTIONAL DESIGN STUDY</text></svg>

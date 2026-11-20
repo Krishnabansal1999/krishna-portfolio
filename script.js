@@ -1,4 +1,21 @@
 const projects = {
+  saanjh: {
+    title:'SAANJH',
+    type:'Event Prospectus / Editorial / Concept Design',
+    year:'Moka Studio / Original Concept / 2026',
+    bg:'#F3EDE4', ink:'#572C33', accent:'#7D373D', accentText:'#FAF5ED',
+    summary:'An original editorial prospectus concept for a fictional festival of culture and community. Designed to demonstrate how Moka Studio can turn a large event story, partnership opportunities and venue information into a precise, compelling printed publication.',
+    tags:['Editorial design','Event prospectus','Print collateral','Original concept'],
+    noteTitle:'A complete story, not just a cover.',
+    note:'From the identity-led opening to carefully structured information pages, every spread is designed with a consistent typographic system, measured spacing and a considered reading flow. SAANJH is a fictional portfolio exercise: the event, identity, artwork and sample content were created for this showcase, with no confidential client work reproduced.',
+    media:[
+      {type:'image',src:'assets/projects/saanjh-preview.svg',alt:'Original Saanjh editorial festival brochure mockup',wide:true,contain:true},
+      {type:'image',src:'assets/projects/saanjh-cover.svg',alt:'Saanjh concept prospectus cover featuring typographic identity and original arch illustration',contain:true},
+      {type:'image',src:'assets/projects/saanjh-spread-01.svg',alt:'Saanjh editorial story spread describing a fictional cultural gathering',wide:true,contain:true},
+      {type:'image',src:'assets/projects/saanjh-spread-02.svg',alt:'Saanjh sponsorship editorial spread with typographic information hierarchy',wide:true,contain:true},
+      {type:'image',src:'assets/projects/saanjh-spread-03.svg',alt:'Saanjh event formats and illustrative venue information spread',wide:true,contain:true}
+    ], next:'nimbu'
+  },
   assam: {
     title:'ASSAM CAFE',
     type:'Custom Illustration / Spatial Graphics / Glass',
@@ -14,7 +31,7 @@ const projects = {
       {type:'image', src:'assets/projects/assam-cafe-illustration-system.webp', alt:'Six-panel custom illustration system prepared for the café glass', wide:true, contain:true},
       {type:'video', src:'assets/projects/assam-cafe-installed-1.mp4', alt:'Installed Assam café glass illustration walkthrough', poster:'assets/projects/assam-cafe-preview.webp'},
       {type:'video', src:'assets/projects/assam-cafe-installed-2.mp4', alt:'Installed Assam café illustration details and walkthrough', poster:'assets/projects/assam-cafe-preview.webp'}
-    ], next:'nimbu'
+    ], next:'saanjh'
   },
   nimbu: {
     title:'NIMBU THEORY',

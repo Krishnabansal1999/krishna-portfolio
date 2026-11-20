@@ -185,3 +185,11 @@ img{display:block;width:100%;height:auto}
   .language-line>span{padding-top:0}
   .module-intro .language-line h3{font-size:clamp(30px,10vw,46px)}
 }
+
+/* SAANJH / originally drawn vector editorial concept */
+.project-row[data-project="saanjh"] .project-name{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.058em}
+.case-overlay:has(.case-gallery img[src*="saanjh"]) .case-title{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.075em}
+.case-overlay:has(.case-gallery img[src*="saanjh"]) .case-image.contain{background:#e7ded3;min-height:0}
+.case-overlay:has(.case-gallery img[src*="saanjh"]) .case-image.contain img{padding:clamp(8px,2.5vw,40px);object-fit:contain;max-height:980px}
+.case-overlay:has(.case-gallery img[src*="saanjh"]) .case-image:not(.wide){aspect-ratio:4/5}
+@media(max-width:900px){.case-overlay:has(.case-gallery img[src*="saanjh"]) .case-image.contain img{max-height:none}}

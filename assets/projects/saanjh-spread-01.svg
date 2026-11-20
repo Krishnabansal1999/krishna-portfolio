@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1010" viewBox="0 0 1600 1010" role="img" aria-label="Original fictional Saanjh event prospectus design by Moka Studio"><defs><filter id="paperShadow" x="-25%" y="-25%" width="150%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="17"/><feOffset dy="22" dx="8" result="b"/><feComponentTransfer><feFuncA type="linear" slope=".17"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="grain" width="13" height="11" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".7" fill="#9B6A5A" opacity=".10"/><circle cx="10" cy="8" r=".55" fill="#9B6A5A" opacity=".08"/></pattern><linearGradient id="amber" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EBB876"/><stop offset="1" stop-color="#B9573D"/></linearGradient></defs><rect x="0" y="0" width="1600" height="1010" rx="0" fill="#FAF5ED" stroke="none"/><rect x="0" y="0" width="1600" height="1010" rx="0" fill="url(#grain)" stroke="none"/>
+  <rect x="30" y="30" width="1540" height="950" rx="0" fill="none" stroke="#DBCFC0"/><line x1="800" y1="26" x2="800" y2="984" stroke="#D1C2B1" stroke-width="2"/>
+  <text x="80" y="93" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" letter-spacing="4">SAANJH / 2027</text>
+  <text x="1510" y="93" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="end" letter-spacing="3">01 / THE STORY</text>
+  <line x1="80" y1="115" x2="1520" y2="115" stroke="#DBCFC0" stroke-width="2"/>
+  <text x="90" y="214" fill="#572C33" font-family="Georgia,Times New Roman,serif" font-weight="400" font-size="75" >More than</text><text x="90" y="301" fill="#572C33" font-family="Georgia,Times New Roman,serif" font-weight="400" font-size="75" >an event.</text>
+   <text x="90" y="390" fill="#C46D49" font-family="Georgia,Times New Roman,serif" font-weight="400" font-size="34" font-style="italic">A moment of connection.</text>
+   <line x1="90" y1="428" x2="700" y2="428" stroke="#D2A25F" stroke-width="3"/>
+   <text x="92" y="487" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" >SAANJH is an imagined cultural gathering built</text>
+   <text x="92" y="523" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" >around the stories, rituals and creative traditions</text>
+   <text x="92" y="559" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" >that bring communities together.</text>
+   <text x="92" y="641" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" >This portfolio concept explores how thoughtful</text>
+   <text x="92" y="677" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" >editorial design can carry the spirit of an event</text>
+   <text x="92" y="713" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" >while making its information easy to navigate.</text>
+   <g transform="translate(132 827) scale(1.9)" stroke="#C46D49" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M0 20 C-8 4,-9 -12,0 -22 C9 -12,8 4,0 20Z"/>
+    <path d="M0 19 C-22 9,-25 -7,-23 -13 C-9 -10,-2 0,0 19Z"/>
+    <path d="M0 19 C22 9,25 -7,23 -13 C9 -10,2 0,0 19Z"/>
+    <path d="M0 21 L0 35"/><path d="M-31 18 Q-19 34 0 35 Q19 34 31 18"/>
+  </g><text x="207" y="830" fill="#C46D49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" letter-spacing="2">ROOTED IN PEOPLE. BUILT FOR STORIES.</text><rect x="829" y="150" width="664" height="720" rx="6" fill="#EED4B3" stroke="none"/>
+   <path d="M910 755 Q922 470 1130 350 Q1350 468 1368 755Z" fill="#C46D49"/>
+   <path d="M960 755 Q976 536 1134 426 Q1287 535 1313 755Z" fill="#F5D9AE"/>
+   <circle cx="1140" cy="538" r="82" fill="#D59465"/>
+   <path d="M832 799 Q1050 675 1271 767 Q1396 707 1494 782 L1494 869 L831 869Z" fill="#7D4242"/>
+   <path d="M828 868 Q1018 763 1212 838 Q1380 791 1493 854" fill="none" stroke="#F9E9CF" stroke-width="6"/>
+   <g fill="#7D373D"><circle cx="948" cy="761" r="29"/><rect x="924" y="783" width="47" height="80" rx="20"/><circle cx="1041" cy="729" r="31"/><rect x="1011" y="757" width="61" height="104" rx="22"/><circle cx="1306" cy="728" r="29"/><rect x="1279" y="752" width="56" height="106" rx="23"/></g>
+   <text x="863" y="201" fill="#572C33" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="14" letter-spacing="2.7">THE SPIRIT OF THE GATHERING</text>
+  <line x1="80" y1="942" x2="1520" y2="942" stroke="#DBCFC0" stroke-width="2"/>
+  <text x="80" y="972" fill="#786762" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="13" letter-spacing="2">MOKA STUDIO   /   EDITORIAL CONCEPT</text>
+  <text x="1514" y="972" fill="#786762" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="13" text-anchor="end" letter-spacing="1.8">SAANJH   —   FICTIONAL DESIGN STUDY</text></svg>
