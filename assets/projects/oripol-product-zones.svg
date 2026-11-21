@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 850" role="img" aria-labelledby="t"><title id="t">Oripol product graphics for exhibition zones</title>
+<rect width="1500" height="850" fill="#efeee9"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="28" y="28" width="706" height="794" rx="18" fill="#2b3a83"/><rect x="766" y="28" width="706" height="794" rx="18" fill="#005b4e"/>
+<path d="M380 28V822M1118 28V822" stroke="#fff" stroke-width="4" opacity=".22"/>
+<text x="70" y="95" font-size="20" letter-spacing="4" font-weight="700" fill="#ffa91e">01 / MEDICAL</text><text x="70" y="164" font-size="71" fill="white" font-weight="900">MEDITEX</text><text x="70" y="223" font-size="23" fill="white">Antimicrobial fabrics &amp;</text><text x="70" y="253" font-size="23" fill="white">surgical disposables</text>
+<circle cx="270" cy="478" r="156" fill="#f5a416"/><path d="M195 457Q268 426 344 457V520Q272 550 195 520Z" fill="#b3dcf1" stroke="white" stroke-width="7"/><path d="M195 472 151 444M344 472 382 443" fill="none" stroke="#fff" stroke-width="7"/>
+<text x="412" y="357" font-size="17" letter-spacing="3" font-weight="800" fill="#f5a416">02 / HYGIENE</text><text x="412" y="408" font-size="37" font-weight="900" fill="#fff">HYGIENETEX</text><text x="412" y="461" font-size="22" fill="#fff">Hydrophilic</text><text x="412" y="489" font-size="22" fill="#fff">topsheets</text>
+<g stroke="#f4b251" stroke-width="3" fill="none" opacity=".7"><path d="M45 659Q325 583 714 693M45 673Q325 597 714 707M45 687Q325 611 714 721M45 701Q325 625 714 735"/></g>
+<text x="809" y="95" font-size="20" letter-spacing="4" font-weight="700" fill="#ffa91e">04 / AGRICULTURE</text><text x="809" y="164" font-size="64" font-weight="900" fill="white">AGROWTEX</text><text x="809" y="212" font-size="22" fill="white">UV-treated crop protection</text>
+<path d="M842 464Q963 316 1100 464" fill="none" stroke="white" stroke-width="13"/><path d="M850 466Q964 345 1094 466" fill="#d5eae3" opacity=".85"/>
+<path d="M849 526Q1000 469 1122 526" stroke="#71bb8f" stroke-width="8" fill="none"/>
+<text x="1166" y="356" font-size="17" letter-spacing="3" font-weight="800" fill="#ffa91e">05 / PACKAGING</text><text x="1166" y="405" font-size="41" font-weight="900" fill="#fff">PACKTEX</text><text x="1166" y="447" font-size="23" fill="#fff">Reusable nonwoven</text><text x="1166" y="477" font-size="23" fill="#fff">fabric solutions</text>
+<g fill="none" stroke-width="20" stroke-linecap="round"><path d="M1214 624V546Q1260 513 1306 546V624" stroke="#f3ab16"/><path d="M1267 641V570Q1314 538 1362 571V641" stroke="#55a66d"/></g>
+<g stroke="#8fc889" stroke-width="3" fill="none" opacity=".6"><path d="M786 659Q1113 579 1450 700M786 673Q1113 593 1450 714M786 687Q1113 607 1450 728M786 701Q1113 621 1450 742"/></g>
+</g></svg>
