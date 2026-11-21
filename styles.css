@@ -193,3 +193,13 @@ img{display:block;width:100%;height:auto}
 .case-overlay:has(.case-gallery img[src*="saanjh"]) .case-image.contain img{padding:clamp(8px,2.5vw,40px);object-fit:contain;max-height:980px}
 .case-overlay:has(.case-gallery img[src*="saanjh"]) .case-image:not(.wide){aspect-ratio:4/5}
 @media(max-width:900px){.case-overlay:has(.case-gallery img[src*="saanjh"]) .case-image.contain img{max-height:none}}
+
+/* Oripol / large-format exhibition case-story typography */
+.case-editorial{grid-column:span 12;padding:clamp(44px,8vw,120px) 2vw;display:grid;grid-template-columns:minmax(140px,.38fr) minmax(0,1fr);column-gap:5vw;row-gap:20px;border-top:1px solid currentColor}
+.case-editorial>span{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding-top:12px}
+.case-editorial h2{grid-column:2;font-size:clamp(36px,6vw,96px);line-height:.94;letter-spacing:-.065em;max-width:1040px;margin:0}
+.case-editorial p{grid-column:2;font-size:clamp(17px,1.75vw,25px);line-height:1.45;max-width:770px;margin:0}
+.case-overlay:has(.case-gallery img[src*="oripol"]) .case-image{min-height:0;background:#e8e8e8;aspect-ratio:1440/900}
+.case-overlay:has(.case-gallery img[src*="oripol"]) .case-image img{object-fit:contain}
+.case-overlay:has(.case-gallery img[src*="oripol"]) .case-title{font-size:clamp(74px,16vw,245px)}
+@media(max-width:900px){.case-editorial{grid-template-columns:1fr;padding:40px 0}.case-editorial h2,.case-editorial p{grid-column:1}.case-overlay:has(.case-gallery img[src*="oripol"]) .case-image{aspect-ratio:1.5}}
