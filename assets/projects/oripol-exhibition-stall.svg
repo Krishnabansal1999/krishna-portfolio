@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Oripol Industries exhibition stall visual presentation</title>
+<desc id="desc">Three-wall spatial design: indigo medical and hygiene, sunflower yellow 40-year milestone, and deep green agriculture and packaging.</desc>
+<defs>
+<linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f0f1f3"/><stop offset="1" stop-color="#d1d4da"/></linearGradient>
+<linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8cd19"/><stop offset="1" stop-color="#f5c518"/></linearGradient>
+<clipPath id="l"><path d="M30 75 387 252 387 739 30 850Z"/></clipPath><clipPath id="r"><path d="M1053 252 1410 75 1410 850 1053 739Z"/></clipPath>
+</defs>
+<rect width="1440" height="900" fill="#eceef2"/>
+<path d="M30 75H1410L1053 252H387Z" fill="#e1e4e9" stroke="#bec2ca" stroke-width="3"/>
+<path d="M30 850 387 739H1053L1410 850 1440 900H0Z" fill="url(#f)"/>
+<path d="M30 75 387 252 387 739 30 850Z" fill="#293a85"/><g clip-path="url(#l)">
+<path d="M220 160V800M332 207V766" stroke="#aab4e0" opacity=".55" stroke-width="3"/>
+<circle cx="163" cy="463" r="100" fill="#f5a21a"/><circle cx="295" cy="426" r="49" fill="#005c54"/>
+<g fill="white" font-family="Arial,Helvetica,sans-serif" font-weight="800">
+<text x="48" y="186" font-size="18" letter-spacing="2">01 / MEDICAL</text><text x="48" y="235" font-size="41">MEDITEX</text>
+<text x="238" y="325" font-size="17" letter-spacing="1">02 / HYGIENE</text><text x="238" y="355" font-size="23">HYGIENETEX</text>
+</g>
+<g stroke="white" stroke-width="3" fill="none" opacity=".92"><rect x="116" y="434" rx="16" width="94" height="60"/><path d="M116 455 77 441M210 455 236 444M122 467Q165 480 202 467M122 477Q165 490 202 477"/></g>
+<g stroke="#f0a629" fill="none" opacity=".6"><path d="M-20 626Q190 560 407 666M-20 641Q190 575 407 681M-20 656Q190 590 407 696M-20 671Q190 605 407 711"/></g>
+</g>
+<rect x="387" y="252" width="666" height="487" fill="url(#b)"/>
+<path d="M609 252V739M831 252V739" stroke="#fff1b8" stroke-width="4"/>
+<circle cx="573" cy="305" r="70" fill="#ffe58a" opacity=".35"/><circle cx="918" cy="310" r="60" fill="#ffe58a" opacity=".38"/>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="800" fill="#283982">
+<text x="408" y="309" font-size="15" letter-spacing="2">SINCE 1986</text>
+<text x="408" y="344" font-size="23">YOUR TRUSTED</text>
+<text x="408" y="373" font-size="23">RAW MATERIAL</text>
+<text x="408" y="402" font-size="23">SUPPLIER</text>
+<text x="408" y="441" font-size="28" fill="#006052">SINCE 1986</text>
+<text x="411" y="503" font-size="16">NEED NON WOVEN?</text><text x="411" y="530" font-size="24" fill="#006052">THINK ORIPOL</text>
+</g>
+<g fill="#293882" font-family="Arial,Helvetica,sans-serif" text-anchor="middle" font-weight="800">
+<circle cx="720" cy="342" r="31" fill="none" stroke="#293882" stroke-width="13"/><path d="M720 338 720 374 747 360" fill="#f8cd19"/>
+<text x="720" y="412" font-size="44" letter-spacing="3">ORIPOL</text>
+<text x="720" y="434" font-size="15" letter-spacing="2">INDUSTRIES LIMITED</text>
+<text x="705" y="571" font-size="117">40</text><text x="797" y="553" font-size="18">YEARS</text>
+<text x="720" y="603" font-size="22" fill="#005d56">OF EXCELLENCE</text>
+</g>
+<path d="M611 464Q610 630 720 632Q825 632 831 521" fill="none" stroke="white" stroke-width="5"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#2b3a83"><text x="850" y="308" font-size="17" letter-spacing="2" font-weight="800" fill="#005d56">GET IN TOUCH</text>
+<text x="850" y="346" font-size="16">CALL</text><text x="850" y="376" font-size="28" font-weight="800">9078089456</text><text x="850" y="411" font-size="28" font-weight="800">8594999724</text>
+<text x="850" y="459" font-size="16">EMAIL</text><text x="850" y="490" font-size="23">sales@oripol.net</text></g>
+<g fill="none" stroke="#fff3c2" stroke-width="2" opacity=".85"><path d="M387 594Q719 739 1053 581M387 601Q719 746 1053 588M387 608Q719 753 1053 595M387 615Q719 760 1053 602"/></g>
+<path d="M387 672Q739 552 1053 655V739H387Z" fill="#fff6d1" opacity=".45"/>
+<path d="M840 682Q944 632 1053 681V739H840Z" fill="#2c9176"/><path d="M840 712h213" stroke="#a9d78d" stroke-width="3"/>
+<path d="M1053 252 1410 75 1410 850 1053 739Z" fill="#00594e"/>
+<g clip-path="url(#r)">
+<path d="M1165 196V773M1289 136V815" stroke="#b5dfcb" stroke-width="3" opacity=".4"/>
+<circle cx="1201" cy="513" r="88" fill="#ffa817"/><circle cx="1340" cy="476" r="72" fill="#ffa817"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#fff" font-weight="800"><text x="1075" y="296" font-size="17" letter-spacing="2">04 / AGRICULTURE</text><text x="1075" y="331" font-size="31">AGROWTEX</text>
+<text x="1295" y="225" font-size="16" letter-spacing="2">05 / PACKAGING</text><text x="1295" y="265" font-size="31">PACKTEX</text></g>
+<g fill="none" stroke="#f9fdf8" stroke-width="5"><path d="M1161 521Q1203 457 1246 520M1161 535Q1203 471 1246 535"/><path d="M1306 490 1328 454 1353 502 1379 470"/></g>
+<g stroke="#69bd8b" stroke-width="3" fill="none" opacity=".55"><path d="M1050 626Q1230 570 1430 662M1050 642Q1230 586 1430 678M1050 658Q1230 602 1430 694"/></g>
+</g>
+<path d="M30 75 387 252H1053L1410 75M30 850 387 739H1053L1410 850" fill="none" stroke="#fff" stroke-width="6" opacity=".85"/>
+<ellipse cx="720" cy="774" rx="142" ry="22" fill="#343a4b" opacity=".16"/>
+<path d="M639 587H801L821 611V782H619V611Z" fill="#fff" stroke="#aaaeb6" stroke-width="3"/><path d="M639 587H801L821 611H619Z" fill="#f7f8fa" stroke="#aaaeb6" stroke-width="3"/>
+<rect x="0" y="870" width="1440" height="30" fill="#e5e7eb"/>
+</svg>
