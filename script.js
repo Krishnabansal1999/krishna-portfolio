@@ -2,12 +2,12 @@ const projects = {
   oripol: {
     title:'ORIPOL',
     type:'Exhibition Stall / Spatial Graphics / Print',
-    year:'Oripol Industries Limited / 2026',
+    year:'Moka Studio / Client project / 2026',
     bg:'#F6C518', ink:'#273781', accent:'#00594E', accentText:'#FFFFFF',
     summary:'40 years of excellence. One space to tell the story. A complete exhibition graphic system developed for Oripol Industries Limited — uniting technical product communication and a forty-year manufacturing legacy across three distinctive walls.',
     tags:['Exhibition design','Spatial graphics','Illustration','Print-ready artwork'],
     noteTitle:'Built for scale. Designed to connect.',
-    note:'Rather than treating each wall as a separate poster, we created a connected visual language with bold typographic hierarchy, purposeful colour coding, product-focused illustrations and continuous graphic lines. The central sunflower-yellow wall celebrates Oripol’s 40-year milestone; deep blue presents medical and hygiene applications; rich green brings agriculture and reusable packaging into focus. This portfolio presents the design visualisation and artwork, not photographs of a completed installation.',
+    note:'Rather than treating each wall as a separate poster, we created a connected visual language with bold typographic hierarchy, purposeful colour coding, product-focused illustrations and continuous graphic lines. The central sunflower-yellow wall celebrates Oripol’s 40-year milestone; deep blue presents medical and hygiene applications; rich green brings agriculture and reusable packaging into focus. The illustrations displayed here are simplified portfolio presentations of the visual system, rather than the exact production files or photographs of an installed stall.',
     media:[
       {type:'image',src:'assets/projects/oripol-exhibition-stall.svg',alt:'Illustrated exhibition stall presentation showing three colour-coded walls',wide:true},
       {type:'story',kicker:'01 / The challenge',title:'One company. Many applications. One connected story.',body:'Oripol’s nonwoven materials serve very different industries. The task was to communicate that breadth without overwhelming visitors — giving every application a clear voice while making the entire stall unmistakably Oripol.'},
@@ -142,6 +142,7 @@ let mx=0,my=0,px=0,py=0,cx=0,cy=0,tx=0,ty=0;
 function renderProject(key){
   const p = projects[key]; if(!p) return;
   activeProject = key;
+  if (window.location.hash !== '#project-'+key) history.replaceState(null, '', '#project-'+key);
   overlay.style.setProperty('--case-bg',p.bg); overlay.style.setProperty('--case-ink',p.ink);
   overlay.style.setProperty('--case-accent',p.accent); overlay.style.setProperty('--case-accent-text',p.accentText);
   const media = p.media || (p.images || []).map(img=>({...img,type:'image'}));
@@ -161,9 +162,11 @@ function renderProject(key){
   document.body.classList.add('case-open'); overlay.classList.add('is-open'); overlay.setAttribute('aria-hidden','false'); overlay.scrollTop=0;
   setTimeout(()=>closeBtn.focus(),300);
 }
-function closeProject(){ overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden','true'); document.body.classList.remove('case-open'); activeProject=null; }
+function closeProject(){ overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden','true'); document.body.classList.remove('case-open'); activeProject=null; if(window.location.hash.startsWith('#project-')) history.replaceState(null, '', '#work'); }
 
 document.querySelectorAll('[data-project]').forEach(row=>row.addEventListener('click',()=>renderProject(row.dataset.project)));
+const linkedCase = window.location.hash.match(/^#project-([a-z0-9]+)$/);
+if(linkedCase && projects[linkedCase[1]]) renderProject(linkedCase[1]);
 closeBtn.addEventListener('click',closeProject);
 overlay.addEventListener('click',e=>{ const next=e.target.closest('[data-next]'); if(next) renderProject(next.dataset.next); });
 document.addEventListener('keydown',e=>{ if(e.key==='Escape' && activeProject) closeProject(); });
