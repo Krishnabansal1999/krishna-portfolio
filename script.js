@@ -1,4 +1,22 @@
 const projects = {
+  oripol: {
+    title:'ORIPOL',
+    type:'Exhibition Stall / Spatial Graphics / Print',
+    year:'Oripol Industries Limited / 2026',
+    bg:'#F6C518', ink:'#273781', accent:'#00594E', accentText:'#FFFFFF',
+    summary:'40 years of excellence. One space to tell the story. A complete exhibition graphic system developed for Oripol Industries Limited — uniting technical product communication and a forty-year manufacturing legacy across three distinctive walls.',
+    tags:['Exhibition design','Spatial graphics','Illustration','Print-ready artwork'],
+    noteTitle:'Built for scale. Designed to connect.',
+    note:'Rather than treating each wall as a separate poster, we created a connected visual language with bold typographic hierarchy, purposeful colour coding, product-focused illustrations and continuous graphic lines. The central sunflower-yellow wall celebrates Oripol’s 40-year milestone; deep blue presents medical and hygiene applications; rich green brings agriculture and reusable packaging into focus. This portfolio presents the design visualisation and artwork, not photographs of a completed installation.',
+    media:[
+      {type:'image',src:'assets/projects/oripol-exhibition-stall.svg',alt:'Illustrated exhibition stall presentation showing three colour-coded walls',wide:true},
+      {type:'story',kicker:'01 / The challenge',title:'One company. Many applications. One connected story.',body:'Oripol’s nonwoven materials serve very different industries. The task was to communicate that breadth without overwhelming visitors — giving every application a clear voice while making the entire stall unmistakably Oripol.'},
+      {type:'image',src:'assets/projects/oripol-product-zones.svg',alt:'Illustrated layout of Oripol medical, hygiene, agricultural and packaging zones',wide:true},
+      {type:'story',kicker:'02 / The visual system',title:'Three walls. Four industries. A single identity.',body:'Medical and hygiene take on a confident indigo; agriculture and packaging use a distinctive deep green. Repeated wave lines and graphic motifs create continuity, while clear titles and product imagery help visitors read the space at a glance.'},
+      {type:'image',src:'assets/projects/oripol-anniversary-backwall.svg',alt:'Sunflower yellow forty-year anniversary back wall graphic study',wide:true},
+      {type:'story',kicker:'03 / The centrepiece',title:'A legacy made visible.',body:'At the centre, a vivid sunflower-yellow anniversary wall anchors the experience. The 40-year message, Oripol identity and contact information turn the stall’s backdrop into its defining brand moment — supported by panel-wise, print-ready execution.'}
+    ],next:'assam'
+  },
   saanjh: {
     title:'SAANJH',
     type:'Event Prospectus / Editorial / Concept Design',
@@ -108,7 +126,7 @@ const projects = {
     summary:'A playful pizzeria identity pairing a bold retro wordmark with a halo and an illustrated pizza slice for an instantly recognisable, youthful personality.',
     tags:['Logo design','Food & beverage','Illustration','Identity'], noteTitle:'Personality first',
     note:'The identity balances a confident wordmark with a characterful food illustration so the brand feels casual, memorable and ready for packaging or social use.',
-    images:[{src:'assets/projects/holy-slice.webp', alt:'Holy Slice pizzeria logo', wide:true}], next:'assam'
+    images:[{src:'assets/projects/holy-slice.webp', alt:'Holy Slice pizzeria logo', wide:true}], next:'oripol'
   }
 };
 
@@ -129,6 +147,9 @@ function renderProject(key){
   const media = p.media || (p.images || []).map(img=>({...img,type:'image'}));
   const gallery = media.map((item,i)=>{
     const classes = `case-image ${item.wide?'wide':''} ${item.contain?'contain':''} ${item.type==='video'?'case-video':''}`;
+    if(item.type==='story'){
+      return `<article class="case-editorial"><span>${item.kicker}</span><h2>${item.title}</h2><p>${item.body}</p></article>`;
+    }
     if(item.type==='video'){
       const poster = item.poster ? ` poster="${item.poster}"` : '';
       return `<figure class="${classes}"><video src="${item.src}"${poster} autoplay muted loop playsinline preload="metadata" aria-label="${item.alt||''}"></video></figure>`;
