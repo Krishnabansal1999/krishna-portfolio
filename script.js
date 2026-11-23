@@ -1,4 +1,22 @@
 const projects = {
+  saffron: {
+    title:'SAFFRON LANE',
+    type:'Restaurant QR Menu / Mobile Web / UI Design',
+    year:'Client demo / 2026',
+    bg:'#FFF4D2', ink:'#075F35', accent:'#FF1685', accentText:'#FFD816',
+    summary:'An expressive scan-to-open restaurant menu designed for a modern Indian kitchen — combining QR-led table entry, bilingual browsing, rich dish detail and a fast table-to-order flow in a loud desi-pop visual system.',
+    tags:['Mobile web','UI design','QR dining','Digital product'],
+    noteTitle:'Selected screens only',
+    note:'This portfolio edit shows approved presentation screens from a client demo. The live build, source code, implementation details and private client information remain confidential.',
+    media:[
+      {type:'image',src:'assets/projects/saffron-lane-cover.webp',alt:'Saffron Lane restaurant QR menu case study cover',wide:true},
+      {type:'image',src:'assets/projects/saffron-lane-home.webp',alt:'Saffron Lane QR menu first impression and mobile home screen',wide:true},
+      {type:'image',src:'assets/projects/saffron-lane-browse.webp',alt:'Saffron Lane bilingual restaurant menu browsing interface',wide:true},
+      {type:'image',src:'assets/projects/saffron-lane-dish.webp',alt:'Saffron Lane detailed dish view with dietary and serving information',wide:true},
+      {type:'image',src:'assets/projects/saffron-lane-table.webp',alt:'Saffron Lane table QR card and order summary experience',wide:true}
+    ],
+    next:'oripol'
+  },
   oripol: {
     title:'ORIPOL',
     type:'Exhibition Stall / Spatial Graphics / Print',
@@ -126,7 +144,7 @@ const projects = {
     summary:'A playful pizzeria identity pairing a bold retro wordmark with a halo and an illustrated pizza slice for an instantly recognisable, youthful personality.',
     tags:['Logo design','Food & beverage','Illustration','Identity'], noteTitle:'Personality first',
     note:'The identity balances a confident wordmark with a characterful food illustration so the brand feels casual, memorable and ready for packaging or social use.',
-    images:[{src:'assets/projects/holy-slice.webp', alt:'Holy Slice pizzeria logo', wide:true}], next:'oripol'
+    images:[{src:'assets/projects/holy-slice.webp', alt:'Holy Slice pizzeria logo', wide:true}], next:'saffron'
   }
 };
 
