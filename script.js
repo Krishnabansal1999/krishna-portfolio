@@ -9,11 +9,11 @@ const projects = {
     noteTitle:'Selected screens only',
     note:'This portfolio edit shows approved presentation screens from a client demo. The live build, source code, implementation details and private client information remain confidential.',
     media:[
-      {type:'image',src:'assets/projects/saffron-lane-cover-v2.webp',alt:'Saffron Lane restaurant QR menu case study cover',wide:true},
-      {type:'image',src:'assets/projects/saffron-lane-home-v2.webp',alt:'Saffron Lane QR menu first impression and mobile home screen',wide:true},
-      {type:'image',src:'assets/projects/saffron-lane-browse-v2.webp',alt:'Saffron Lane bilingual restaurant menu browsing interface',wide:true},
-      {type:'image',src:'assets/projects/saffron-lane-dish-v2.webp',alt:'Saffron Lane detailed dish view with dietary and serving information',wide:true},
-      {type:'image',src:'assets/projects/saffron-lane-table-v2.webp',alt:'Saffron Lane table QR card and order summary experience',wide:true}
+      {type:'image',src:'assets/projects/saffron-lane-cover-hd.png',alt:'Saffron Lane restaurant QR menu case study cover',wide:true},
+      {type:'image',src:'assets/projects/saffron-lane-home-hd.png',alt:'Saffron Lane QR menu first impression and mobile home screen',wide:true},
+      {type:'image',src:'assets/projects/saffron-lane-browse-hd.png',alt:'Saffron Lane bilingual restaurant menu browsing interface',wide:true},
+      {type:'image',src:'assets/projects/saffron-lane-dish-hd.png',alt:'Saffron Lane detailed dish view with dietary and serving information',wide:true},
+      {type:'image',src:'assets/projects/saffron-lane-table-hd.png',alt:'Saffron Lane table QR card and order summary experience',wide:true}
     ],
     next:'oripol'
   },
